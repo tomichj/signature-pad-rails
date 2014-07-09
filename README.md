@@ -8,7 +8,7 @@ This gem provides:
   * flashcanvas.js
   * json2
   
-The versions of flashcanvcas and json2 are as provided with the original signature pad package. 
+The versions of flashcanvcas and json2 are as provided with the original Signature Pad package.
 
 For more information on Signature Pad, see http://thomasjbradley.ca/lab/signature-pad/. 
 
@@ -29,13 +29,26 @@ Or install it yourself as:
 
 After installing the gem, add the following to your application.js:
 
-    //= require jquery.signaturepad
-    //= require flashcanvas
-    //= require json2
+    //= require signature-pad
 
-And optionally add to your application.css: 
+Or, you may instead add any of the individual javascript components:
 
-    *= require jquery.signaturepad
+    //= require signature-pad/jquery.signaturepad
+    //= require signature-pad/flashcanvas
+    //= require signature-pad/json2
+
+And optionally add to your application.css:
+
+    *= require signature-pad
+
+The css will include the custom cursor and font. The cursor and font are included in assets, and if you wish to
+access them manually rather than using the signature-pad css, you may do so using the asset_path helper, eg:
+
+    cursor: url(<%= asset_path 'signature-pad/pen.cur' %>) 16 16, crosshair;
+
+or
+
+    src: url("<%= asset_path 'signature-pad/journal.eot' %>");
 
 
 ## Usage
