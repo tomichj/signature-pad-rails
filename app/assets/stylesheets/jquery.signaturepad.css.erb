@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Journal';
-  src: url('journal.eot');
-  src: url('journal.eot?#iefix') format('embedded-opentype'),
-       url('journal.woff') format('woff'),
-       url('journal.ttf') format('truetype'),
-       url('journal.svg#JournalRegular') format('svg');
+  src: url("<%= asset_path 'journal.eot' %>");
+  src: url("<%= asset_path 'journal.eot?#iefix' %>") format('embedded-opentype'),
+       url("<%= asset_path 'journal.woff' %>") format('woff'),
+       url("<%= asset_path 'journal.ttf' %>") format('truetype'),
+       url("<%= asset_path 'journal.svg#JournalRegular' %>") format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -163,7 +163,7 @@
    * IE will ignore this line because of the hotspot position
    * Unfortunately we need this twice, because some browsers ignore the hotspot inside the .cur
    */
-  cursor: url("pen.cur") 16 16, crosshair;
+  cursor: url(<%= asset_path 'pen.cur' %>) 16 16, crosshair;
 
   -ms-touch-action: none;
   -webkit-user-select: none;

@@ -4,7 +4,7 @@ Thomas Bradley's Signature Pad! For Rails! So great.
 
 This gem provides:
 
-  * Signature Pad 2.5.1
+  * Signature Pad 2.5.1 (js, css, font, and cursor)
   * flashcanvas.js
   * json2
   
@@ -27,15 +27,21 @@ Or install it yourself as:
 
     $ gem install signature-pad-rails
 
-After installing the gem, add the following to your application.js
+After installing the gem, add the following to your application.js:
 
     //= require jquery.signaturepad
     //= require flashcanvas
     //= require json2
 
+And optionally add to your application.css: 
+
+    *= require jquery.signaturepad
+
+
 ## Usage
 
 See the Signature Pad documentation at http://thomasjbradley.ca/lab/signature-pad/.
+
 
 ## Contributing
 
