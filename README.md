@@ -5,12 +5,12 @@ Thomas Bradley's Signature Pad! For Rails! So great.
 This gem provides:
 
   * Signature Pad 2.5.1 (js, css, font, and cursor)
-  * flashcanvas.js
-  * json2
+  * flashcanvas.js (js and swf)
+  * json2 (js)
   
 The versions of flashcanvcas and json2 are as provided with the original Signature Pad package.
 
-For more information on Signature Pad, see http://thomasjbradley.ca/lab/signature-pad/. 
+To read more about Signature Pad, see http://thomasjbradley.ca/lab/signature-pad/.
 
 
 ## Installation
@@ -54,6 +54,17 @@ or
 ## Usage
 
 See the Signature Pad documentation at http://thomasjbradley.ca/lab/signature-pad/.
+
+
+## Credits
+
+The rails gem is written and maintained by [Justin Tomich](https://github.com/tomichj).
+
+Signature Pad is written by [Thomas J Bradley](http://thomasjbradley.ca).
+
+json2.js is written by [Douglas Crockford](http://www.json.org/js.html).
+
+FlashCanvas is written by the [FlashCanvas Project](http://flashcanvas.net/). 
 
 
 ## Contributing
