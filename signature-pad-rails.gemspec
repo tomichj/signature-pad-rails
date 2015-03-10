@@ -16,6 +16,6 @@ Gem::Specification.new do |spec|
   spec.files         = `git ls-files -z`.split("\x0")
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "rails", ">= 4.0.0", "< 5.0"
-  spec.add_dependency "jquery-rails", ">= 3.1.0", "< 5.0"
+  spec.add_dependency "rails", ">= 3.0.0", "< 5.0"
+  spec.add_dependency "jquery-rails", ">= 3.0.0", "< 5.0"
 end
