@@ -4,7 +4,7 @@ Thomas Bradley's Signature Pad! For Rails! So great.
 
 This gem provides:
 
-  * Signature Pad 2.5.1 (js, css, font, and cursor)
+  * Signature Pad 2.5.2 (js, css, font, and cursor)
   * flashcanvas.js (js and swf)
   * json2 (js)
   
