@@ -10,7 +10,9 @@ This gem provides:
   
 The versions of flashcanvcas and json2 are as provided with the original Signature Pad package.
 
-To read more about Signature Pad, see http://thomasjbradley.ca/lab/signature-pad/.
+To read more about Signature Pad, see http://thomasjbradley.ca/lab/signature-pad/. The Signature Pad source code
+is at https://github.com/thomasjbradley/signature-pad. If you wish to make changes to Signature pad itself,
+fork the Signature Pad project itself and contribute your changes back to that project.
 
 
 ## Installation
@@ -69,8 +71,4 @@ FlashCanvas is written by the [FlashCanvas Project](http://flashcanvas.net/).
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/signature-pad-rails/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+Contributions are very welcome. Fork and push a change request. Thanks!
