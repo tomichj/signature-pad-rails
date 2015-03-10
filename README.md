@@ -11,8 +11,8 @@ This gem provides:
 The versions of flashcanvcas and json2 are as provided with the original Signature Pad package.
 
 To read more about Signature Pad, see http://thomasjbradley.ca/lab/signature-pad/. The Signature Pad source code
-is at https://github.com/thomasjbradley/signature-pad. If you wish to make changes to Signature pad itself,
-fork the Signature Pad project itself and contribute your changes back to that project.
+is at https://github.com/thomasjbradley/signature-pad. If you wish to make changes to Signature Pad itself,
+fork Thomas Bradley's Signature Pad project and contribute your changes back to that project.
 
 
 ## Installation
@@ -51,6 +51,14 @@ access them manually rather than using the signature-pad css, you may do so usin
 or
 
     src: url("<%= asset_path 'signature-pad/journal.eot' %>");
+
+
+## Requirements
+
+signature-pad-rails requires:
+
+* rails 3.x or 4.x
+* jquery-rails 3.0.0 or greater
 
 
 ## Usage
