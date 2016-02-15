@@ -1,3 +1,9 @@
+## 0.5 (15 February 2016)
+
+  - added flashcanvas.swf to precompiled assets in engine
+  - tested with rails5.0.0.beta2, increased to rails < 5.1 in gemspec
+  - incremented version
+
 ## 0.4 (10 March 2015)
 
   - added support for Rails 3
