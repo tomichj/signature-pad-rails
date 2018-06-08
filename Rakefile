@@ -6,5 +6,5 @@ task :build do
 end
 
 task release: :build do
-  system "gem push bundler-#{Signature::Pad::Rails::VERSION}"
+  system "gem push signature-pad-rails-#{Signature::Pad::Rails::VERSION}"
 end

@@ -57,7 +57,7 @@ or
 
 signature-pad-rails requires:
 
-* rails 3.x, 4.x, or 5.0
+* rails 3.x, 4.x, or 5.x
 * jquery-rails 3.0.0 or greater
 
 
